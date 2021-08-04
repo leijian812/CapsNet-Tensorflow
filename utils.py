@@ -2,7 +2,7 @@ import os
 import scipy
 import numpy as np
 import tensorflow as tf
-
+''' defin clss '''
 
 def load_mnist(batch_size, is_training=True):
     path = os.path.join('data', 'mnist')
